@@ -1,7 +1,8 @@
+import Link from 'next/link'
 import React from 'react'
 const Home = () => {
   return (
-    <div className='text-red-500'>cazzo</div>
+    <Link href='modelli' >Modelli</Link>
   )
 }
 
