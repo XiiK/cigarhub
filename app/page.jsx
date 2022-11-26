@@ -2,7 +2,9 @@ import Link from 'next/link'
 import React from 'react'
 const Home = () => {
   return (
-    <Link href='modelli'>Modelli</Link>
+    <div className='mt-10 text-3xl text-center bg-blue-600'>
+      <Link href='showcase'>Vai allo Showcase</Link>
+    </div>
   )
 }
 
