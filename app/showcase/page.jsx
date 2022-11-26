@@ -19,7 +19,8 @@ const showcase = () => {
         </div>
         <p>Qui dovrò fare un carosello decente in automatico e migliorare la grafica ~Fede </p>
       </div>
-
+      {/* copyright */}
+      <div className='flex flex-row'><div className='m-auto'>© 2022 CigarHubTeam</div><div className='m-auto'>Privacy Policy</div></div>
     </>
 
   )
