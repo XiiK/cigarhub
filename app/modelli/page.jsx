@@ -1,9 +1,9 @@
 import React from 'react'
-const fane = 'culone nerone'
-const Modelli = () => {
+const models = 'modelli'
+const modelli = () => {
   return (
-    <div>{fane}</div>
+    <div>{models}</div>
   )
 }
 
-export default Modelli
+export default modelli
