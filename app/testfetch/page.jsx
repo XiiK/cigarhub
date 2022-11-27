@@ -1,13 +1,19 @@
 import React from 'react'
-
+const { NODE_ENV } = process.env
+const url = NODE_ENV === 'production' ? 'https://cigarhub.vercel.app/api/test' : 'http://localhost:3000/api/test'
+console.log('NODE_ENV', NODE_ENV)
+async function getPosts () {
+  const response = await fetch(url)
+  console.log('response', response)
+  const data = await response.json()
+  return data
+}
 const F = async () => {
-  const data = await fetch('http://127.0.0.1:3000/api/test')
-  const posts = await data.json()
-
-  console.log('data', posts)
+  const data = await getPosts()
+  console.log('data', data)
   return (
     <div>{
-      JSON.stringify(posts)
+      JSON.stringify(data)
       }
     </div>
   )
