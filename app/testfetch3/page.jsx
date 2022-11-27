@@ -1,7 +1,7 @@
 import React from 'react'
 const { NEXT_PUBLIC_VERCEL_URL } = process.env
 
-const url = NEXT_PUBLIC_VERCEL_URL ? `${NEXT_PUBLIC_VERCEL_URL}/api/test1` : 'http://localhost:3000/api/test1'
+const url = NEXT_PUBLIC_VERCEL_URL ? `https://${NEXT_PUBLIC_VERCEL_URL}/api/test1` : 'http://localhost:3000/api/test1'
 console.log('URL', NEXT_PUBLIC_VERCEL_URL, url)
 async function getPosts () {
   const response = await fetch(url)
