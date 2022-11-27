@@ -1,10 +1,11 @@
-import '../styles/globals.css'
+import Navbar from './Navbar'
 
-export default function RootLayout ({ children }) {
+export default function HomeLayout ({ children }) {
   return (
     <html>
       <head />
       <body>
+        <Navbar />
         {children}
       </body>
     </html>
