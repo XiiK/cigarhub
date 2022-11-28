@@ -1,5 +1,4 @@
 import React from 'react'
-import NavbarSh from './NavbarSh'
 import Hero from './Hero'
 import About from './About'
 import Testimonials from './Testimonials'
@@ -16,7 +15,6 @@ import './showcase.css'
 const PageShowcase = () => {
   return (
     <>
-      <NavbarSh />
       <Hero />
       <About />
       <Testimonials />

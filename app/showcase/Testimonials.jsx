@@ -2,7 +2,7 @@ import React from 'react'
 
 const Testimonials = () => {
   return (
-    <div>Testimonials</div>
+    <div id='testimonials'>Testimonials</div>
   )
 }
 
