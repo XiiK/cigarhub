@@ -1,8 +1,8 @@
 
-
 /* Hero section */
 #hero{
-    background-color: aqua;
+    background: url(../../public/img/About/cigarHeroSh.png);
+    background-size: cover;
     height: 100vh;
 }
 #hero-navbar{
@@ -10,14 +10,18 @@
 }
 /* About section */
 #about{
-    background-color: yellow;
     height: 100vh;
-
 }
 /* Testimonials section */
 #testimonials{
-    background-color: green;
     height: 100vh;
-
 }
-/* FooterSh section */
+/* ContactUs section  */
+#contactus{
+    height: 100vh;
+}
+
+#footer-copyright{
+    background-color: rgb(243, 244, 246);
+}
+
