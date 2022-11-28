@@ -1,9 +1,23 @@
-/* NavBarSh section */
+
 
 /* Hero section */
-
+#hero{
+    background-color: aqua;
+    height: 100vh;
+}
+#hero-navbar{
+    background-color: blanchedalmond;
+}
 /* About section */
+#about{
+    background-color: yellow;
+    height: 100vh;
 
+}
 /* Testimonials section */
+#testimonials{
+    background-color: green;
+    height: 100vh;
 
+}
 /* FooterSh section */
