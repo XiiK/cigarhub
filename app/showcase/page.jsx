@@ -1,6 +1,9 @@
 import React from 'react'
 import Carousel from './Carousel'
-
+const images = [
+  'link1',
+  'link2'
+]
 const PageShowcase = () => {
   return (
     <>
@@ -12,7 +15,7 @@ const PageShowcase = () => {
         <p className='text-2xl'>Il Social Network per gli amanti del tabacco cubano</p>
         <p className='mt-4'>Condividi con il mondo la tua passione e fai amicizia </p>
         <div className='bg-gray-300 border-black  border-1 rounded-full p-3 mt-5 w-40'>Registrati subito!</div>
-        <Carousel />
+        <Carousel images={images} />
         <p>Qui dovrò fare un carosello decente in automatico e migliorare la grafica ~Fede </p>
       </div>
       <div className='flex flex-row'>
