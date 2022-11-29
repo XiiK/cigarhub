@@ -6,7 +6,10 @@ const SignInComponent = ({ providers }) => {
     <div>
       {Object.values(providers).map((provider) => (
         <div key={provider.name}>
-          <button onClick={() => signIn(provider.id)}>Sign in with {providers.name}
+          <button onClick={() => signIn(provider.id, {
+            callbackUrl: (process.env.VERCEL_URL + '/home') || 'http://localhost:3000/home'
+          })}
+          >Sign in with {providers.name}
           </button>
         </div>
       ))}
