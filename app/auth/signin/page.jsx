@@ -13,7 +13,7 @@ const SignInPage = async () => {
       <div className='m-auto'>
         <Image src={chLogo} width={300} alt='logo' />
       </div>
-      <div className='flex flex-row ease-in duration-300 m-auto text-gray-600 bg-gray-100 p-4 text-medium cursor-pointer hover:bg-gray-200  hover:text-blue-300 rounded-lg border-solid border-2'>
+      <div className='flex flex-row ease-in duration-300 m-auto text-gray-600 bg-gray-100 p-4 text-medium cursor-pointer hover:bg-gray-200  hover:text-white rounded-lg border-solid border-2'>
         <SignInComponent providers={providers} />
         <div className='ml-2'>
           <Image src={logogoogle} width={20} />
