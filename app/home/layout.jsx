@@ -1,13 +1,11 @@
 import Navbar from './Navbar'
-
+import ProvidersWrapper from './ProvidersWrapper'
+import Test from './Test'
 export default function HomeLayout ({ children }) {
   return (
-    <html>
-      <head />
-      <body>
-        <Navbar />
-        {children}
-      </body>
-    </html>
+    <ProvidersWrapper>
+      <Navbar />
+      {children}
+    </ProvidersWrapper>
   )
 }
