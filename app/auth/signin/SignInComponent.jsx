@@ -2,6 +2,7 @@
 import React from 'react'
 import { signIn } from 'next-auth/react'
 const SignInComponent = ({ providers }) => {
+  console.log('process.env.VERCEL_URL', process.env.VERCEL_URL)
   const callbackUrl = (process.env.VERCEL_URL || 'http://localhost:3000') + '/home'
   return (
     <div>
