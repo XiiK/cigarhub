@@ -1,10 +1,10 @@
 'use client'
 import React from 'react'
 import { signIn } from 'next-auth/react'
+
 const SignInComponent = ({ providers }) => {
-  console.log('process.env.VERCEL_URL', process.env.VERCEL_URL)
-  console.log('NEXT_PUBLIC_VERCEL_URL', process.env.NEXT_PUBLIC_VERCEL_URL)
-  const callbackUrl = (process.env.VERCEL_URL || 'http://localhost:3000') + '/home'
+  const callbackUrl = process.env.NEXTAUTH_URL + '/home'
+
   return (
     <div>
       {Object.values(providers).map((provider) => (
