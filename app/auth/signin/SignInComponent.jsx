@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import { signIn } from 'next-auth/react'
-const callbackUrl = process.env.NEXTAUTH_URL || process.env.NEXT_PUBLIC_NEXTAUTH_URL + '/home'
+const callbackUrl = process.env.NEXT_PUBLIC_SITE_URL + '/home'
 
 const SignInComponent = ({ providers }) => {
   return (
