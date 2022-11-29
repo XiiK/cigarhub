@@ -1,7 +1,13 @@
+'use client'
+
 import React from 'react'
 import logoHero from 'public/img/logo.png'
 import Image from 'next/image'
 const FooterSh = () => {
+  function ClickHome (e) {
+    e.preventDefault()
+    document.getElementById('hero').scrollIntoView({ behavior: 'smooth' })
+  }
   return (
     <>
       <section className='text-gray-600 body-font'>
@@ -12,7 +18,7 @@ const FooterSh = () => {
           <div className='flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2'>
             <div className='p-2 sm:w-1/2 w-full'>
               <div className='bg-gray-100 rounded flex p-4 h-full items-center'>
-                <svg fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' className='text-red-500 w-6 h-6 flex-shrink-0 mr-4' viewBox='0 0 24 24'>
+                <svg fill='none' stroke='currentColor' strokeLinecap='round' strokeLinejoin='round' strokeWidth='3' className='text-red-500 w-6 h-6 flex-shrink-0 mr-4' viewBox='0 0 24 24'>
                   <path d='M22 11.08V12a10 10 0 11-5.93-9.14' />
                   <path d='M22 4L12 14.01l-3-3' />
                 </svg>
@@ -21,7 +27,7 @@ const FooterSh = () => {
             </div>
             <div className='p-2 sm:w-1/2 w-full'>
               <div className='bg-gray-100 rounded flex p-4 h-full items-center'>
-                <svg fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' className='text-red-500 w-6 h-6 flex-shrink-0 mr-4' viewBox='0 0 24 24'>
+                <svg fill='none' stroke='currentColor' strokeLinecap='round' strokeLinejoin='round' strokeWidth='3' className='text-red-500 w-6 h-6 flex-shrink-0 mr-4' viewBox='0 0 24 24'>
                   <path d='M22 11.08V12a10 10 0 11-5.93-9.14' />
                   <path d='M22 4L12 14.01l-3-3' />
                 </svg>
@@ -30,7 +36,7 @@ const FooterSh = () => {
             </div>
             <div className='p-2 sm:w-1/2 w-full'>
               <div className='bg-gray-100 rounded flex p-4 h-full items-center'>
-                <svg fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' className='text-red-500 w-6 h-6 flex-shrink-0 mr-4' viewBox='0 0 24 24'>
+                <svg fill='none' stroke='currentColor' strokeLinecap='round' strokeLinejoin='round' strokeWidth='3' className='text-red-500 w-6 h-6 flex-shrink-0 mr-4' viewBox='0 0 24 24'>
                   <path d='M22 11.08V12a10 10 0 11-5.93-9.14' />
                   <path d='M22 4L12 14.01l-3-3' />
                 </svg>
@@ -39,7 +45,7 @@ const FooterSh = () => {
             </div>
             <div className='p-2 sm:w-1/2 w-full'>
               <div className='bg-gray-100 rounded flex p-4 h-full items-center'>
-                <svg fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' className='text-red-500 w-6 h-6 flex-shrink-0 mr-4' viewBox='0 0 24 24'>
+                <svg fill='none' stroke='currentColor' strokeLinecap='round' strokeLinejoin='round' strokeWidth='3' className='text-red-500 w-6 h-6 flex-shrink-0 mr-4' viewBox='0 0 24 24'>
                   <path d='M22 11.08V12a10 10 0 11-5.93-9.14' />
                   <path d='M22 4L12 14.01l-3-3' />
                 </svg>
@@ -48,7 +54,7 @@ const FooterSh = () => {
             </div>
             <div className='p-2 sm:w-1/2 w-full'>
               <div className='bg-gray-100 rounded flex p-4 h-full items-center'>
-                <svg fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' className='text-red-500 w-6 h-6 flex-shrink-0 mr-4' viewBox='0 0 24 24'>
+                <svg fill='none' stroke='currentColor' strokeLinecap='round' strokeLinejoin='round' strokeWidth='3' className='text-red-500 w-6 h-6 flex-shrink-0 mr-4' viewBox='0 0 24 24'>
                   <path d='M22 11.08V12a10 10 0 11-5.93-9.14' />
                   <path d='M22 4L12 14.01l-3-3' />
                 </svg>
@@ -57,7 +63,7 @@ const FooterSh = () => {
             </div>
             <div className='p-2 sm:w-1/2 w-full'>
               <div className='bg-gray-100 rounded flex p-4 h-full items-center'>
-                <svg fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' className='text-red-500 w-6 h-6 flex-shrink-0 mr-4' viewBox='0 0 24 24'>
+                <svg fill='none' stroke='currentColor' strokeLinecap='round' strokeLinejoin='round' strokeWidth='3' className='text-red-500 w-6 h-6 flex-shrink-0 mr-4' viewBox='0 0 24 24'>
                   <path d='M22 11.08V12a10 10 0 11-5.93-9.14' />
                   <path d='M22 4L12 14.01l-3-3' />
                 </svg>
@@ -65,6 +71,7 @@ const FooterSh = () => {
               </div>
             </div>
           </div>
+          <button className='flex mt-5 mx-auto text-white bg-red-500 border-0 py-2 px-8 focus:outline-none hover:bg-red-600 rounded text-lg' onClick={ClickHome}>Return to Top</button>
         </div>
       </section>
       {/* footer con il copyright */}
@@ -80,12 +87,12 @@ const FooterSh = () => {
           </p>
           <span className='inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start'>
             <a className='ml-3 text-gray-500'>
-              <svg fill='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' className='w-5 h-5' viewBox='0 0 24 24'>
+              <svg fill='currentColor' strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' className='w-5 h-5' viewBox='0 0 24 24'>
                 <path d='M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z' />
               </svg>
             </a>
             <a className='ml-3 text-gray-500'>
-              <svg fill='currentColor' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='0' className='w-5 h-5' viewBox='0 0 24 24'>
+              <svg fill='currentColor' stroke='currentColor' strokeLinecap='round' strokeLinejoin='round' strokeWidth='0' className='w-5 h-5' viewBox='0 0 24 24'>
                 <path stroke='none' d='M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z' />
                 <circle cx='4' cy='4' r='2' stroke='none' />
               </svg>

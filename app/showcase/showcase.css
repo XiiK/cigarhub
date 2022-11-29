@@ -1,13 +1,11 @@
 
 /* Hero section */
 #hero{
-    background: url(../../public/img/About/cigarHeroSh.png);
+    background: url(../../public/img/heros.png);
     background-size: cover;
     height: 100vh;
 }
-#hero-navbar{
-    background-color: blanchedalmond;
-}
+
 /* About section */
 #about{
     height: 100vh;
@@ -25,3 +23,32 @@
     background-color: rgb(243, 244, 246);
 }
 
+#btn-header{
+    background-color: rgb(243, 244, 246);
+    transition: transform .2s; 
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid black;
+}
+
+#btn-header:hover{
+    transform: scale(1.2);
+}
+
+#logo-header{
+    transition: transform .2s; 
+}
+
+#logo-header:hover{
+    transform: scale(1.2);
+}
+
+#btn-hlog{
+    transition: transform .2s;  
+    border: 2px solid black; 
+}
+
+#btn-hlog:hover{
+    transform: scale(1.1);
+}
