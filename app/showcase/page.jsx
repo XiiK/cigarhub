@@ -3,6 +3,7 @@ import Hero from './Hero'
 import About from './About'
 import Testimonials from './Testimonials'
 import FooterSh from './FooterSh'
+import ContactUs from './ContactUs'
 
 import './showcase.css'
 
@@ -18,6 +19,7 @@ const PageShowcase = () => {
       <Hero />
       <About />
       <Testimonials />
+      <ContactUs />
       <FooterSh />
     </>
 
