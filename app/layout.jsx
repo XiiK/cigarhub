@@ -1,14 +1,10 @@
 import '../styles/globals.css'
-import ProvidersWrapper from './ProvidersWrapper'
-
 export default function RootLayout ({ children }) {
   return (
     <html>
       <head />
       <body>
-        <ProvidersWrapper>
-          {children}
-        </ProvidersWrapper>
+        {children}
       </body>
     </html>
   )
