@@ -8,7 +8,7 @@ export const authOptions = {
       clientSecret: process.env.GOOGLE_SECRET
     })
   ],
-  secret: 'stocazzo',
+  secret: process.env.NEXTAUTH_SECRET,
   pages: { signIn: 'auth/signin' }
 }
 
