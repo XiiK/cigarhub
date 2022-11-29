@@ -24,7 +24,7 @@ const Hero = () => {
   return (
     <>
       <div className='' id='hero'>
-        {/* Header */}
+        {/* Header d */}
         <header className='text-gray-600 body-font bg-red-400'>
           <div className='container mx-auto px-10 flex flex-wrap flex-col md:flex-row items-center'>
             <a className='flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0'>
