@@ -15,13 +15,14 @@ import './showcase.css'
 
 const PageShowcase = () => {
   return (
-    <>
+
+    <div className='flex flex-col flex-wrap'>
       <Hero />
       <About />
       <Testimonials />
       <ContactUs />
       <FooterSh />
-    </>
+    </div>
 
   )
 }
