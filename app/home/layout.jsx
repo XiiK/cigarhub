@@ -4,8 +4,10 @@ import ProvidersWrapper from './ProvidersWrapper'
 export default function HomeLayout ({ children }) {
   return (
     <ProvidersWrapper>
-      <Navbar />
-      {children}
+      <div className='flex'>
+        <Navbar />
+        {children}
+      </div>
     </ProvidersWrapper>
   )
 }
