@@ -7,12 +7,6 @@ import ContactUs from './ContactUs'
 
 import './showcase.css'
 
-// const images = [
-//   'link1',
-//   'link2',
-//   'link3'
-// ]
-
 const PageShowcase = () => {
   return (
 
