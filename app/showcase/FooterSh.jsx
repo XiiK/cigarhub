@@ -78,7 +78,7 @@ const FooterSh = () => {
       <footer id='footer-copyright' className='text-gray-600 body-font'>
         <div className='container px-5 py-1 mx-auto flex items-center sm:flex-row flex-col'>
           <a className='flex title-font font-medium items-center md:justify-start justify-center text-gray-900'>
-            <Image className='lg:h-20 md:h-17 w-full object-cover' src={logoHero} alt='img' />
+            <Image className='p-4 w-full object-cover' src={logoHero} alt='img' width={100} height={100} />
             <span className='ml-3 text-xl'>CigarHub</span>
           </a>
           <p className='text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4'>© 2022 CigarHub —

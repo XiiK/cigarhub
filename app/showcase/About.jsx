@@ -3,6 +3,9 @@ import Image from 'next/image'
 // import ceos from 'public/img/About/ceos.png'
 // import FedeCeo from 'public/img/About/FedeCeo.png'
 import logoHero from 'public/img/logo.png'
+// import about1 from 'public/img/About/about1.png'
+import about2 from 'public/img/About/about2.png'
+import about3 from 'public/img/About/about3.png'
 
 const About = () => {
   return (
@@ -12,7 +15,7 @@ const About = () => {
           <div className='flex flex-wrap -m-4'>
             <div className='p-4 md:w-1/3'>
               <div className='h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden'>
-                <Image className='lg:h-48 md:h-36 w-full object-cover' src={logoHero} alt='img' />
+                <Image className='w-full object-cover' src={logoHero} alt='img' />
                 <div className='p-6'>
                   <h2 className='tracking-widest text-xs title-font font-medium text-gray-400 mb-1'>DevTeam and CEOs</h2>
                   <h1 className='title-font text-lg font-medium text-gray-900 mb-3'>Fane & Fede</h1>
@@ -30,7 +33,7 @@ const About = () => {
             </div>
             <div className='p-4 md:w-1/3'>
               <div className='h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden'>
-                <Image className='lg:h-48 md:h-36 w-full object-cover' src={logoHero} alt='img' />
+                <Image className='w-full object-cover' src={about2} alt='img' />
                 <div className='p-6'>
                   <h2 className='tracking-widest text-xs title-font font-medium text-gray-400 mb-1'>True aficionados</h2>
                   <h1 className='title-font text-lg font-medium text-gray-900 mb-3'>Community</h1>
@@ -48,11 +51,11 @@ const About = () => {
             </div>
             <div className='p-4 md:w-1/3'>
               <div className='h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden'>
-                <Image className='lg:h-48 md:h-36 w-full object-cover' src={logoHero} alt='img' />
+                <Image className='w-full object-cover' src={about3} alt='img' />
                 <div className='p-6'>
                   <h2 className='tracking-widest text-xs title-font font-medium text-gray-400 mb-1'>Lorem.</h2>
                   <h1 className='title-font text-lg font-medium text-gray-900 mb-3'>The Idea</h1>
-                  <p className='leading-relaxed mb-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, laudantium facilis. Architecto.</p>
+                  <p className='leading-relaxed mb-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptatibus suscipit consequatur.</p>
                   <div className='flex items-center flex-wrap '>
                     <a className='text-red-500 inline-flex items-center md:mb-2 lg:mb-0'>Learn More
                       <svg className='w-4 h-4 ml-2' viewBox='0 0 24 24' stroke='currentColor' strokeWidth='2' fill='none' strokeLinecap='round' strokeLinejoin='round'>
