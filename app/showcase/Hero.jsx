@@ -35,7 +35,7 @@ const Hero = () => {
                 src={logoHero}
                 priority={false}
                 alt='logo'
-                width={150} height={150}
+                width={100} height={100}
               />
             </a>
             <nav className='md:ml-auto flex flex-wrap items-center justify-center'>
