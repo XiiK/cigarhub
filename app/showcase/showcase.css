@@ -5,36 +5,33 @@
     background-size: cover;
     height: 100vh;
 }
-
-/* About section */
-#about{
-    height: 100vh;
-}
-/* Testimonials section */
-#testimonials{
-    height: 100vh;
-}
-/* ContactUs section  */
-#contactus{
-    height: 100vh;
-}
-
-#footer-copyright{
-    background-color: rgb(243, 244, 246);
-}
-
 #btn-header{
-    background-color: rgb(243, 244, 246);
     transition: transform .2s; 
     width: 100px;
     padding-top: 5px;
     padding-bottom: 5px;
-    border: 2px solid black;
+    display: inline-block;
+    position: relative;
+    color: whitesmoke;
+    font-size: 1.1rem;
+}
+#btn-header::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: whitesmoke;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+#btn-header:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
-#btn-header:hover{
-    transform: scale(1.2);
-}
 
 #logo-header{
     transition: transform .2s; 
@@ -52,3 +49,20 @@
 #btn-hlog:hover{
     transform: scale(1.1);
 }
+/* About section */
+#about{
+    height: 100vh;
+}
+/* Testimonials section */
+#testimonials{
+    height: 100vh;
+}
+/* ContactUs section  */
+#contactus{
+    height: 100vh;
+}
+
+#footer-copyright{
+    background-color: rgb(243, 244, 246);
+}
+

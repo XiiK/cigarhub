@@ -2,6 +2,7 @@
 
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import logoHero from 'public/img/logo.png'
 
 const Hero = () => {
@@ -25,18 +26,25 @@ const Hero = () => {
     <>
       <div className='' id='hero'>
         {/* Header fiero */}
-        <header className='text-gray-600 body-font bg-red-400'>
+        <header className='text-gray-600 body-font bg-red-500/25'>
           <div className='container mx-auto px-10 flex flex-wrap flex-col md:flex-row items-center'>
             <a className='flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0'>
-              <Image id='logo-header' className='w-auto h-auto' src={logoHero} priority alt='logo' width={150} height={150} />
+              <Image
+                id='logo-header'
+                className='w-auto h-auto'
+                src={logoHero}
+                priority={false}
+                alt='logo'
+                width={150} height={150}
+              />
             </a>
-            <nav className='md:ml-auto flex flex-wrap items-center text-base justify-center'>
-              <button id='btn-header' className='rounded-lg mr-5 hover:text-black' onClick={ClickHome}>Home</button>
-              <button id='btn-header' className='rounded-lg mr-5 hover:text-black' onClick={ClickAbout}>About</button>
-              <button id='btn-header' className='rounded-lg mr-5 hover:text-black' onClick={ClickTestimonials}>Other</button>
-              <button id='btn-header' className='rounded-lg mr-5 hover:text-black' onClick={ClickToContact}>Contact Us</button>
+            <nav className='md:ml-auto flex flex-wrap items-center justify-center'>
+              <button id='btn-header' className='mr-5' onClick={ClickHome}>Home</button>
+              <button id='btn-header' className='mr-5' onClick={ClickAbout}>About</button>
+              <button id='btn-header' className='mr-5' onClick={ClickTestimonials}>Other</button>
+              <button id='btn-header' className='mr-5' onClick={ClickToContact}>Contact Us</button>
             </nav>
-            <button id='btn-hlog' className='mx-2 my-2 transistion bg-red-600 transition focus:outline-none text-black hover:text-white rounded px-8 py-3 text-medim'>LOG IN →</button>
+            <Link href='../auth/signin' id='btn-hlog' className='mx-2 my-2 transistion bg-red-600 transition focus:outline-none text-black hover:text-white rounded px-8 py-3 text-medim'>LOG IN →</Link>
           </div>
         </header>
 
@@ -46,28 +54,3 @@ const Hero = () => {
 }
 
 export default Hero
-
-/*
-      <div id='hero-navbar' className='flex flex-row p-3'>
-          <div className='m-auto'>
-            <Image className='w-auto h-auto' src={logoHero} alt='logo' width={200} height={200} />
-          </div>
-          <div className='flex m-auto'>
-            <div className='flex flex-row '>
-              <div className='cursor-pointer ml-2 bg-white rounded-lg m-auto p-2'>
-                <button onClick={ClickHome}>Home</button>
-              </div>
-              <div className='cursor-pointer ml-2 bg-white rounded-lg m-auto p-2'>
-                <button onClick={ClickAbout}>About</button>
-              </div>
-              <div className='cursor-pointer ml-2 bg-white rounded-lg m-auto p-2'>
-                <button onClick={ClickTestimonials}>Testimonials</button>
-              </div>
-              <div className='cursor-pointer ml-2 bg-white rounded-lg m-auto p-2'>
-                <button onClick={ClickToContact}>Contact Us</button>
-              </div>
-            </div>
-            <div className='ml-10 text-2xl bg-blue-600 cursor-pointer rounded-lg m-auto p-3 pl-4 pr-4'>Login</div>
-          </div>
-        </div>
-*/
