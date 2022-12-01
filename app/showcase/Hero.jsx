@@ -38,13 +38,13 @@ const Hero = () => {
                 width={100} height={100}
               />
             </a>
-            <nav className='md:ml-auto flex flex-wrap items-center justify-center'>
+            <nav className='md:m-auto flex flex-wrap items-center justify-center'>
               <button id='btn-header' className='mr-5' onClick={ClickHome}>Home</button>
               <button id='btn-header' className='mr-5' onClick={ClickAbout}>About</button>
               <button id='btn-header' className='mr-5' onClick={ClickTestimonials}>Other</button>
               <button id='btn-header' className='mr-5' onClick={ClickToContact}>Contact Us</button>
             </nav>
-            <Link href='../auth/signin' id='btn-hlog' className='mx-2 my-2 transistion bg-red-600 transition focus:outline-none text-black hover:text-white rounded px-8 py-3 text-medim'>LOG IN →</Link>
+            <Link href='../auth/signin' id='btn-hlog' className='mx-2 my-2 transistion bg-gray-100 transition focus:outline-none text-black hover:text-gray-500 rounded-lg px-8 py-3 text-medim'>LOG IN →</Link>
           </div>
         </header>
 
