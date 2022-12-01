@@ -43,7 +43,7 @@
 
 #btn-hlog{
     transition: transform .2s;  
-    border: 2px solid black; 
+    /* border: 2px solid black;  */
 }
 
 #btn-hlog:hover{
