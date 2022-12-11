@@ -4,6 +4,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import logoHero from 'public/img/logo.png'
+import heroBg from 'public/img/heros.png'
 
 const Hero = () => {
   function ClickHome (e) {
@@ -24,6 +25,13 @@ const Hero = () => {
   }
   return (
     <>
+      <Image
+        id='hero-img'
+        className='w-full h-full'
+        src={heroBg}
+        priority
+        alt='heroBg'
+      />
       <div className='' id='hero'>
         {/* Header fiero */}
         <header className='text-gray-600 body-font bg-red-500/25'>
@@ -33,7 +41,6 @@ const Hero = () => {
                 id='logo-header'
                 className='w-auto h-auto'
                 src={logoHero}
-                priority={false}
                 alt='logo'
                 width={100} height={100}
               />
