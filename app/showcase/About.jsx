@@ -1,9 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
-// import ceos from 'public/img/About/ceos.png'
-// import FedeCeo from 'public/img/About/FedeCeo.png'
-import logoHero from 'public/img/logo.png'
-// import about1 from 'public/img/About/about1.png'
+
+// import logoHero from 'public/img/logo.png'
+
 import about2 from 'public/img/About/about2.png'
 import about3 from 'public/img/About/about3.png'
 
@@ -15,7 +14,7 @@ const About = () => {
           <div className='flex flex-wrap -m-4'>
             <div className='p-4 md:w-1/3'>
               <div className='h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden'>
-                <Image className='w-full object-cover' src={logoHero} alt='img' />
+                <Image className='w-full object-cover' src={about2} alt='img' />
                 <div className='p-6'>
                   <h2 className='tracking-widest text-xs title-font font-medium text-gray-400 mb-1'>DevTeam and CEOs</h2>
                   <h1 className='title-font text-lg font-medium text-gray-900 mb-3'>Fane & Fede</h1>
