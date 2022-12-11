@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
     "@react-three/drei": "^9.46.0",
     "@react-three/fiber": "^8.9.1",
     "mongodb": "^4.12.1",
