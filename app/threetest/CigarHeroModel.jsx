@@ -3,15 +3,26 @@
 import React from 'react'
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls, Stars } from '@react-three/drei'
+
 import './threemodel.css'
-function Box () {
+
+function Box1 () {
   return (
-    <mesh>
-      <boxBufferGeometry attach='geometry' />
+    <mesh position={[1, 0, 0]}>
+      <boxBufferGeometry attach='geometry' rotateZ={3.14} />
       <meshLambertMaterial attach='material' color='red' />
     </mesh>
   )
 }
+function Box2 () {
+  return (
+    <mesh position={[-1, 0, 0]}>
+      <boxBufferGeometry attach='geometry' />
+      <meshLambertMaterial attach='material' color='yellow' />
+    </mesh>
+  )
+}
+
 const ThreeTest = () => {
   return (
     <Canvas>
@@ -22,7 +33,8 @@ const ThreeTest = () => {
         position={[10, 15, 10]}
         angle={0.3}
       />
-      <Box />
+      <Box1 />
+      <Box2 />
     </Canvas>
   )
 }
