@@ -5,7 +5,7 @@ import PostsList from './PostsList'
 
 const PageHome = () => {
   return (
-    <div style={{ overflow: 'scroll', maxHeight: '100vh' }}>
+    <div className='max-h-screen overflow-y-auto w-100'>
       <div>Home</div>
       <PostsList />
     </div>
