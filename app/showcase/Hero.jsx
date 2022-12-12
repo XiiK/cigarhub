@@ -31,6 +31,7 @@ const Hero = () => {
         src={heroBg}
         priority
         alt='heroBg'
+        placeholder='blur'
       />
       <div className='' id='hero'>
         {/* Header fiero */}
