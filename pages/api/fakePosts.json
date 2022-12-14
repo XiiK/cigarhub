@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "post_id": 1,
+      "user_id": 1,
+      "text": "Hello World",
+      "image": "https://external-preview.redd.it/8gwxkOBWhljh6xjd0IVA-cJo2n0Z-gqAB1GWKB-2Cs4.png?width=640&crop=smart&format=pjpg&auto=webp&s=8944ca701979c706d2a41be179e6c116a8c3255d"
+    },
+    {
+      "post_id": 2,
+      "user_id": 1,
+      "text": "Hello World",
+      "image": "https://pbs.twimg.com/media/Eaa-UELWsAM9lUy.jpg:large"
+    },
+    {
+      "post_id": 3,
+      "user_id": 2,
+      "text": "Hello World",
+      "image": "https://i0.wp.com/www.iltanzen.it/wp-content/uploads/2017/10/085875599629a68074f8a885bcdad408-1.png"
+    },
+    {
+      "post_id": 4,
+      "user_id": 2,
+      "text": "Hello World",
+      "image": "https://media.discordapp.net/attachments/1046128739169357875/1051935211740463134/unknown.png"
+    }
+  ]
+}

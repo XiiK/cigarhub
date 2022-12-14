@@ -1,4 +1,4 @@
-import Navbar from './Navbar'
+import Navbar from './Navbar.css'
 import ProvidersWrapper from './ProvidersWrapper'
 
 export default function HomeLayout ({ children }) {
