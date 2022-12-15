@@ -1,6 +1,6 @@
 import React from 'react'
 import './PostsList.css'
-import './Navbar.css'
+import './navbar.css'
 import PostsList from './PostsList'
 
 const PageHome = () => {
