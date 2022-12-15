@@ -6,13 +6,14 @@ const getPosts = async () => {
 }
 
 const PostsList = async () => {
-  const Posts = await getPosts()
+  const posts = await getPosts()
+  console.log('process.env.NEXT_PUBLIC_SITE_URL', process.env.NEXT_PUBLIC_SITE_URL)
   return (
     <div className='post-wrapper'>
-      {Posts.map((post) => (
-        <div className='post' key={post.post_id}>
-          <h1>{post.text}</h1>
-          <img src={post.image} alt={post.post_id} width={500} height={200} />
+      {posts.map((post) => (
+        <div className='post' key={post?.post_id}>
+          <h1>{post?.text}</h1>
+          <img src={post?.image} alt={post?.post_id} width={500} height={200} />
         </div>
       ))}
     </div>
