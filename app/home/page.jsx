@@ -7,7 +7,7 @@ const PageHome = () => {
   return (
     <div className='max-h-screen overflow-y-auto w-100'>
       <div>Home</div>
-      <PostsList />
+      {/* <PostsList /> */}
     </div>
   )
 }
