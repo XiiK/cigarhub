@@ -5,7 +5,7 @@ import PostsList from './PostsList'
 
 const PageHome = () => {
   return (
-    <div className='max-h-screen overflow-y-auto w-100'>
+    <div className='max-h-screen overflow-y-auto w-full'>
       <div>Home</div>
       <PostsList />
     </div>

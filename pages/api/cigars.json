@@ -7,7 +7,7 @@
         "name": "Cohiba",
         "description": "lorem ipsum",
         "status": "",
-        "date": ""
+        "date": "1967, Havana"
       },
       {
         "id": 2,
@@ -15,7 +15,7 @@
         "name": "H. Upmann",
         "description": "lorem ipsum",
         "status": "",
-        "date": ""
+        "date": "1843, Havana"
       },
       {
         "id": 3,
@@ -23,7 +23,7 @@
         "name": "Hoyo de Monterrey",
         "description": "lorem ipsum",
         "status": "",
-        "date": ""
+        "date": "1865, Havana"
       },
       {
         "id": 4,
@@ -31,7 +31,7 @@
         "name": "Montecristo",
         "description": "lorem ipsum",
         "status": "",
-        "date": ""
+        "date": "1935, Havana"
       },
       {
         "id": 5,
@@ -39,7 +39,7 @@
         "name": "Partagas",
         "description": "lorem ipsum",
         "status": "",
-        "date": ""
+        "date": "1845, Havana"
       },
       {
         "id": 6,
@@ -47,7 +47,7 @@
         "name": "Romeo y Julieta",
         "description": "lorem ipsum",
         "status": "",
-        "date": ""
+        "date": "1875, Havana"
       },
       {
         "id": 7,
@@ -55,7 +55,7 @@
         "name": "Bolivar",
         "description": "lorem ipsum",
         "status": "",
-        "date": ""
+        "date": "1921, Havana"
       },
       {
         "id": 8,
@@ -63,7 +63,7 @@
         "name": "Ramon Allones",
         "description": "lorem ipsum",
         "status": "",
-        "date": ""
+        "date": "1845, Havana"
       },
       {
         "id": 9,
@@ -71,7 +71,7 @@
         "name": "Trinidad",
         "description": "lorem ipsum",
         "status": "",
-        "date": ""
+        "date": "1969, Trinidad"
       },
       {
         "id": 10,
@@ -79,7 +79,7 @@
         "name": "Vegueros",
         "description": "lorem ipsum",
         "status": "",
-        "date": ""
+        "date": "1961, Pinar del Rio"
       },
       {
         "id": 11,
@@ -87,7 +87,7 @@
         "name": "El Rey del Mundo",
         "description": "lorem ipsum",
         "status": "",
-        "date": ""
+        "date": "1848, Havana"
       },
       {
         "id": 12,
@@ -95,7 +95,7 @@
         "name": "Juan Lopez",
         "description": "lorem ipsum",
         "status": "",
-        "date": ""
+        "date": "1876, Havana"
       },
       {
         "id": 13,
@@ -103,7 +103,7 @@
         "name": "La Gloria Cubana",
         "description": "lorem ipsum",
         "status": "",
-        "date": ""
+        "date": "1885, Havana"
       },
       {
         "id": 14,
@@ -111,7 +111,7 @@
         "name": "Saint Luis Rey",
         "description": "lorem ipsum",
         "status": "",
-        "date": ""
+        "date": "1940, Cuba"
       },
       {
         "id": 15,
@@ -119,7 +119,7 @@
         "name": "Sancho Panza",
         "description": "lorem ipsum",
         "status": "",
-        "date": ""
+        "date": "1848, Cuba"
       },
       {
         "id": 16,
@@ -127,7 +127,7 @@
         "name": "Troya",
         "description": "lorem ipsum",
         "status": "",
-        "date": ""
+        "date": "1932, Cuba"
       },
       {
         "id": 17,
@@ -135,14 +135,14 @@
         "name": "Davidoff",
         "description": "lorem ipsum",
         "status": "",
-        "date": ""
+        "date": "1930, Ginevra"
       }
     ],
 
     "cigars": [
       {
         "id": 1,
-        "img_url": "https://media.discordapp.net/attachments/1052522736146194442/1052526620465967145/cohiba-black_1.png",
+        "img_url": "link",
         "name": "Black",
         "brand": "Cohiba",
         "country": "Dominican Republic",
