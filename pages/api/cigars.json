@@ -1,8 +1,9 @@
 {
+  "data": {
     "brands": [
       {
         "id": 1,
-        "img_logo": "",
+        "img_logo": "https://media.discordapp.net/attachments/1052846184135401512/1052846368382791680/cohiba.jpg",
         "name": "Cohiba",
         "description": "lorem ipsum",
         "status": "",
@@ -10,7 +11,7 @@
       },
       {
         "id": 2,
-        "img_logo": "",
+        "img_logo": "https://media.discordapp.net/attachments/1052846184135401512/1052846369259401257/h-upmann-_546x400.jpg",
         "name": "H. Upmann",
         "description": "lorem ipsum",
         "status": "",
@@ -18,7 +19,7 @@
       },
       {
         "id": 3,
-        "img_logo": "",
+        "img_logo": "https://media.discordapp.net/attachments/1052846184135401512/1052848034909782016/Hoyo-de-Monterrey-vuelta-abajo-1024x743.png",
         "name": "Hoyo de Monterrey",
         "description": "lorem ipsum",
         "status": "",
@@ -26,7 +27,7 @@
       },
       {
         "id": 4,
-        "img_logo": "",
+        "img_logo": "https://cdn.discordapp.com/attachments/1052846184135401512/1052848705352519680/montecristo_large.png",
         "name": "Montecristo",
         "description": "lorem ipsum",
         "status": "",
@@ -34,7 +35,7 @@
       },
       {
         "id": 5,
-        "img_logo": "",
+        "img_logo": "https://cdn.discordapp.com/attachments/1052846184135401512/1052849914381611108/partagas.png",
         "name": "Partagas",
         "description": "lorem ipsum",
         "status": "",
@@ -42,7 +43,7 @@
       },
       {
         "id": 6,
-        "img_logo": "",
+        "img_logo": "https://cdn.discordapp.com/attachments/1052846184135401512/1052850500321685524/romeoyjulieta.jpg",
         "name": "Romeo y Julieta",
         "description": "lorem ipsum",
         "status": "",
@@ -50,7 +51,7 @@
       },
       {
         "id": 7,
-        "img_logo": "",
+        "img_logo": "https://cdn.discordapp.com/attachments/1052846184135401512/1052850777724551168/vista-bolivar.jpg",
         "name": "Bolivar",
         "description": "lorem ipsum",
         "status": "",
@@ -58,7 +59,7 @@
       },
       {
         "id": 8,
-        "img_logo": "",
+        "img_logo": "https://cdn.discordapp.com/attachments/1052846184135401512/1052851826069884938/RamonAllonespng.png",
         "name": "Ramon Allones",
         "description": "lorem ipsum",
         "status": "",
@@ -66,7 +67,7 @@
       },
       {
         "id": 9,
-        "img_logo": "",
+        "img_logo": "https://cdn.discordapp.com/attachments/1052846184135401512/1052855159945953330/trinidad.jpg",
         "name": "Trinidad",
         "description": "lorem ipsum",
         "status": "",
@@ -74,7 +75,7 @@
       },
       {
         "id": 10,
-        "img_logo": "",
+        "img_logo": "https://cdn.discordapp.com/attachments/1052846184135401512/1052854901581033523/Logo_Vegueros.jpg",
         "name": "Vegueros",
         "description": "lorem ipsum",
         "status": "",
@@ -82,7 +83,7 @@
       },
       {
         "id": 11,
-        "img_logo": "",
+        "img_logo": "https://cdn.discordapp.com/attachments/1052846184135401512/1052854636798808145/el-rey.jpg",
         "name": "El Rey del Mundo",
         "description": "lorem ipsum",
         "status": "",
@@ -90,7 +91,7 @@
       },
       {
         "id": 12,
-        "img_logo": "",
+        "img_logo": "https://cdn.discordapp.com/attachments/1052846184135401512/1052854413850591262/vista-juanlopez.jpg",
         "name": "Juan Lopez",
         "description": "lorem ipsum",
         "status": "",
@@ -98,7 +99,7 @@
       },
       {
         "id": 13,
-        "img_logo": "",
+        "img_logo": "https://cdn.discordapp.com/attachments/1052846184135401512/1052853811808583680/la-gloria-cubana-.jpg",
         "name": "La Gloria Cubana",
         "description": "lorem ipsum",
         "status": "",
@@ -106,7 +107,7 @@
       },
       {
         "id": 14,
-        "img_logo": "",
+        "img_logo": "https://cdn.discordapp.com/attachments/1052846184135401512/1052853567687495680/vista-saintluis.jpg",
         "name": "Saint Luis Rey",
         "description": "lorem ipsum",
         "status": "",
@@ -114,7 +115,7 @@
       },
       {
         "id": 15,
-        "img_logo": "",
+        "img_logo": "https://cdn.discordapp.com/attachments/1052846184135401512/1052853125951795210/vista-sancho.jpg",
         "name": "Sancho Panza",
         "description": "lorem ipsum",
         "status": "",
@@ -122,7 +123,7 @@
       },
       {
         "id": 16,
-        "img_logo": "",
+        "img_logo": "https://cdn.discordapp.com/attachments/1052846184135401512/1052852802839388160/troya-.jpg",
         "name": "Troya",
         "description": "lorem ipsum",
         "status": "",
@@ -130,7 +131,7 @@
       },
       {
         "id": 17,
-        "img_logo": "",
+        "img_logo": "https://cdn.discordapp.com/attachments/1052846184135401512/1052846368781238272/davidoff.jpg",
         "name": "Davidoff",
         "description": "lorem ipsum",
         "status": "",
@@ -513,3 +514,4 @@
       }
     ]
   }
+}
