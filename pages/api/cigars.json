@@ -2,147 +2,224 @@
   "data": {
     "brands": [
       {
-        "id": 1,
+        "brand_id": 1,
         "img_logo": "https://media.discordapp.net/attachments/1052846184135401512/1052846368382791680/cohiba.jpg",
         "name": "Cohiba",
-        "description": "lorem ipsum",
-        "status": "",
-        "date": ""
+        "description": ["Cohiba is a current post-Revolution brand, established in 1966.", "It is classified by Habanos SA as their Global flagship brand, and has a major market share and is sold at a premium price."],
+        "history": ["In 1963 Cohiba started out as a Fuma (a cigar rolled by a torcedor for his own use) that was offered to Fidel Castro.",
+                   "It immediately became Fidel's favourite.",
+                   "In 1964, a small factory was set up to make these cigars. Production was later moved to the present El Laguito Factory.",
+                   "This original cigar was an unnamed Laguito No.1, and in 1967, two addition sizes were added: a Laguito No.2 and a Laguito No.3.",
+                   "The cigar brand remained unnamed until 1966, when it was officially named Cohiba.",
+                   "In 1969 the three cigars were given commercial names and the packaging and band designs finalised "
+                  ],
+        "date": "1967, Havana"
       },
       {
-        "id": 2,
+        "brand_id": 2,
         "img_logo": "https://media.discordapp.net/attachments/1052846184135401512/1052846369259401257/h-upmann-_546x400.jpg",
         "name": "H. Upmann",
-        "description": "lorem ipsum",
-        "status": "",
-        "date": ""
+        "description": ["H. Upmann is a current pre-Revolution brand, established in 1844.", "It is now classified by Habanos SA as a Global brand, but prior to c2007 it was only classified as a Multi-local. It has a significant market share"],
+        "history": ["Herman Upmann was a German banker whose love for Habanos led him to settle in Havana in 1844 and found a bank and a Habanos factory in this city.",
+                    "Over time, the bank closed, but his brand of cigars persists today as an example of the most refined Habanos medium strength flavour Habanos."
+                  ],
+        "date": "1843, Havana"
       },
       {
-        "id": 3,
+        "brand_id": 3,
         "img_logo": "https://media.discordapp.net/attachments/1052846184135401512/1052848034909782016/Hoyo-de-Monterrey-vuelta-abajo-1024x743.png",
         "name": "Hoyo de Monterrey",
-        "description": "lorem ipsum",
-        "status": "",
-        "date": ""
+        "description": ["Hoyo de Monterrey is a current pre-Revolution brand, established in 1865.", "It is classified by Habanos SA as a Global brand and has a significant market share."],
+        "history": ["In 1831, Don José Gener y Batet emigrated to Cuba from Spain at the age of thirteen, where he worked on his uncle's plantation in Vuelta Abajo.",
+                    "Twenty years later, he would open his own cigar factory in Havana and begin producing his own cigar line, La Escepción.",
+                    "In 1865, after using his factory's profits to acquire one of the best tobacco farms in Vuelta Abajo, he registered a cigar line named for it: Hoyo de Monterrey."
+                  ],
+        "date": "1865, Havana"
       },
       {
-        "id": 4,
+        "brand_id": 4,
         "img_logo": "https://cdn.discordapp.com/attachments/1052846184135401512/1052848705352519680/montecristo_large.png",
         "name": "Montecristo",
-        "description": "lorem ipsum",
-        "status": "",
-        "date": ""
+        "description": ["Montecristo is a current pre-Revolution brand, established in 1935.", "It is classified by Habanos SA as a Global brand and has the largest market share."],
+        "history": ["In July 1936, Menéndez founded a new firm with a partner, naming it Menéndez, García y Cía.",
+                    "With the growing success of the Montecristo brand, the firm purchased the faltering H. Upmann Factory (created by Hermann Dietrich Upmann in 1844) from J. Frankau SA in 1937 and transferred Montecristo production there.",
+                    "J. Frankau continued as sole distributor of the H. Upmann brand in the UK, while John Hunter Morris and Elkan Co. Ltd. was the sole distributor of Montecristo in Britain.",
+                    "In 1963, these firms merged to become 'Hunters & Frankau', which today is the sole importer and distributor of all Cuban cigars in the UK."
+                  ],
+        "date": "1935, Havana"
       },
       {
-        "id": 5,
+        "brand_id": 5,
         "img_logo": "https://cdn.discordapp.com/attachments/1052846184135401512/1052849914381611108/partagas.png",
         "name": "Partagas",
-        "description": "lorem ipsum",
-        "status": "",
-        "date": ""
+        "description": ["Partagás is classified by Habanos s.a. as a Global brand, and has a major market share. The brand was established in 1827.", "The current Partagás factory was constructed in 1845, and this is the year that is used for calculating major anniversaries for the brand."],
+        "history": ["Partagás is one of the oldest cigar brands, having been established in 1845 in Havana, the cigar capital of the world.",
+                    "The company was created by Don Jaime Partagás y Ravelo, a Catalan who migrated to Cuba in 1831 where he worked for a businessman in the city of Havana"
+                  ],
+        "date": "1845, Havana"
       },
       {
-        "id": 6,
+        "brand_id": 6,
         "img_logo": "https://cdn.discordapp.com/attachments/1052846184135401512/1052850500321685524/romeoyjulieta.jpg",
         "name": "Romeo y Julieta",
-        "description": "lorem ipsum",
-        "status": "",
-        "date": ""
+        "description": ["Romeo y Julieta is a current pre-Revolution brand, launched around the 1850s and was officially registered in 1873.",
+                        "The range was fully established by 1875 and this is the year that the Aniversario Humidors date from.",
+                        "It is classified by Habanos as a Global brand, and has a major market share."
+                      ],
+        "history": ["The Romeo y Julieta marque was established in 1875 by Inocencio Alvarez and Manin García.",
+                    "The brand is the Spanish name for Shakespeare's famous tragedy, Romeo and Juliet.",
+                    "Between 1885 and 1900, the brand won numerous awards at different tasting exhibitions (as still evidenced by the gold medals on the brand's logo)."
+                  ],
+        "date": "1875, Havana"
       },
       {
-        "id": 7,
+        "brand_id": 7,
         "img_logo": "https://cdn.discordapp.com/attachments/1052846184135401512/1052850777724551168/vista-bolivar.jpg",
         "name": "Bolivar",
-        "description": "lorem ipsum",
-        "status": "",
-        "date": ""
+        "description": ["Bolívar is a current pre-revolution brand, established in 1902 by José Fernández Rocha.", "It is classed by Habanos S.A. as being in their Value category of Portfolio brands.", "Under the old system it was considered a multi-local brand. It has a minor market share."],
+        "history": ["In 1954, following the death of José Fernández Rocha, the Cifuentes family purchased the Bolivar and La Gloria Cubana brands from the Rocha family.",
+                    "Production of Bolivar cigars was then moved to the Partagás factory.",
+                    "Not all Bolivar cigars are made at the Partagás factory these days, but Partagás remains the primary factory for the Bolivar brand."
+                  ],
+        "date": "1921, Havana"
       },
       {
-        "id": 8,
+        "brand_id": 8,
         "img_logo": "https://cdn.discordapp.com/attachments/1052846184135401512/1052851826069884938/RamonAllonespng.png",
         "name": "Ramon Allones",
-        "description": "lorem ipsum",
-        "status": "",
-        "date": ""
+        "description": ["Ramón Allones is a current pre-revolution brand, established between 1837 and 1845.",
+                        "The brand changed hands several times, including a spell owned by UK importer Hunters between 1911 and 1927, after which it was bought by Partagás."
+                      ],
+        "history": ["In its heyday of the 1920s, Ramón Allones was a huge brand, particularly in the UK, however it has steadily declined since then.",
+                    "Starting in 1972, sizes were rationalised across brands produced at the Partagás Factory, and a large number of Ramón Allones vitolas were discontinued (although some new ones were added).",
+                    "Today it is classified as a “Value” brand in Habanos S.A.'s portfolio, with only a few sizes in regular production.",
+                    "It does receive the receive regular special releases, however, and is by far the most popular choice for Regional Edition cigars, generally with several new vitolas created every year.",
+                    "The range comprises full strength cigars, using tobacco from the premium Vuelta Abajo region."
+                  ],
+        "date": "1845, Havana"
       },
       {
-        "id": 9,
+        "brand_id": 9,
         "img_logo": "https://cdn.discordapp.com/attachments/1052846184135401512/1052855159945953330/trinidad.jpg",
         "name": "Trinidad",
-        "description": "lorem ipsum",
-        "status": "",
-        "date": ""
+        "description": ["Trinidad is a current brand, established post-Revolution in 1969, and was commercially launched in 1997.", "It classified by Habanos SA as a niche brand and has a significant market share."],
+        "history": ["In the early 1990s, this type of cigar received attention in Cigar Aficionado after an interview with Avelino Lara (formerly the manager of El Laguito,",
+                    "and a producer of cigars for the Graycliff Hotel in Nassau, Bahamas, until his death on October 27, 2009).",
+                    "In the 1992 interview, Lara claimed that Trinidad was an exclusive brand that only Fidel Castro was authorized to hand out as diplomatic gifts.",
+                    "Lara also claimed the Trinidad cigars were of a higher quality than the much-famous Cohibas that had formerly been diplomatic exclusives before their mass-market release in 1982."
+                  ],
+        "date": "1969, Trinidad"
       },
       {
-        "id": 10,
+        "brand_id": 10,
         "img_logo": "https://cdn.discordapp.com/attachments/1052846184135401512/1052854901581033523/Logo_Vegueros.jpg",
         "name": "Vegueros",
-        "description": "lorem ipsum",
-        "status": "",
-        "date": ""
+        "description": ["Vegueros is a post-revolution Habanos SA brand. It was established in 1997.",
+                        "All vitolas in the range were discontinued in 2012, and the brand was relaunched with all new cigars with updated branding in 2013.",
+                        "It is classified as a Volume Portfolio brand at a lower price than other brands."
+                      ],
+        "history": ["In 1961, the Francisco Donatién Factory in the Pinar del Río Province of Cuba began producing cigars for domestic consumption.",
+                    "This was, in addition to, the cigarettes it had been producing for years. These cigars were commonly rolled for national banquets and other public affairs and became colloquially known as Vegueros, after the farmers and field hands that work on Cuba's tobacco and sugar cane plantations.",
+                    "The first people outside of Cuba to become acquainted with these cigars were tourists on sight-seeing trips through Cuba's cigar tobacco-growing regions.",
+                    "In 1997, Habanos SA launched the cigars for export."
+                  ],
+        "date": "1961, Pinar del Rio"
       },
       {
-        "id": 11,
+        "brand_id": 11,
         "img_logo": "https://cdn.discordapp.com/attachments/1052846184135401512/1052854636798808145/el-rey.jpg",
         "name": "El Rey del Mundo",
-        "description": "lorem ipsum",
-        "status": "",
-        "date": ""
+        "description": ["El Rey del Mundo is a current pre-revolution brand, established in 1882."],
+        "history": ["The brand is believed to have been created by German businessman Emilio Ohmstedt in 1848.",
+                    "This was the same entrepreneur behind Sancho Panza cigars. In Spanish, the national language of Cuba, El Rey del Mundo means 'King of the World'.",
+                    "The brand's logo reflects this with lots of imagery."
+                  ],
+        "date": "1848, Havana"
       },
       {
-        "id": 12,
+        "brand_id": 12,
         "img_logo": "https://cdn.discordapp.com/attachments/1052846184135401512/1052854413850591262/vista-juanlopez.jpg",
         "name": "Juan Lopez",
-        "description": "lorem ipsum",
-        "status": "",
-        "date": ""
+        "description": ["Juan López is a current pre-revolution brand, established in the 1870s.",
+                        "It is classified by Habanos SA in their 'Other' marketing category.",
+                        "In the pre-2019 categorisation system, it was deemed a Local brand.", 
+                        "It has a minor market share, although is a popular choice for regional editions."
+                      ],
+        "history": ["In 1876, Juan López Sena (aka Juan López Diaz) created the Juan López brand, producing cigars in Havana on Calle de Los Dragones.",
+                    "In 1908, the brand was passed to his heirs and was then sold to the Sociedad Cosme Del Peso y Cía in 1918, which owned the brand until the Cuban revolution.",
+                    "During its history, the brand has also been labeled Flor de Juan López, only to return to the original name in time."
+                  ],
+        "date": "1876, Havana"
       },
       {
-        "id": 13,
+        "brand_id": 13,
         "img_logo": "https://cdn.discordapp.com/attachments/1052846184135401512/1052853811808583680/la-gloria-cubana-.jpg",
         "name": "La Gloria Cubana",
-        "description": "lorem ipsum",
-        "status": "",
-        "date": ""
+        "description": ["La Gloria Cubana is a current pre-revolution brand that was established in 1885. It lapsed in 1959 and was reinstated circa 1965.",
+                        "It is classified by Habanos SA in their 'Other' marketing category. Prior to 2019 it was considered a local brand."
+                      ],
+        "history": ["The La Gloria Cubana brand was created in 1885 by the Sociedad Cabañas y Castro, then bought twenty years later in 1905 by José F. Rocha, who manufactured the brand from his factory at 364 Miguel Street in Havana.",
+                    "After Rocha died in 1954, the Cifuentes family bought both La Gloria Cubana and Bolivar from Rocha's former company.",
+                    "Production was moved to the Partagás Factory, where it's still produced today, and became very popular as an export brand"
+                  ],
+        "date": "1885, Havana"
       },
       {
-        "id": 14,
+        "brand_id": 14,
         "img_logo": "https://cdn.discordapp.com/attachments/1052846184135401512/1052853567687495680/vista-saintluis.jpg",
         "name": "Saint Luis Rey",
-        "description": "lorem ipsum",
-        "status": "",
-        "date": ""
+        "description": ["Saint Luis Rey is a current pre-revolution brand, established around 1940 by a British firm.", "It was imported exclusively into the UK market until the 1993."],
+        "history": ["The marca or brand San Luis Rey is believed to be based on a reference to the popular 1927 novel by American author Thornton Wilder, The Bridge of San Luis Rey.",
+                    "The brand itself was first registered in Cuba by the Zamora y Guerra Co., located at 810 Calle Maximo Gómez in Havana.",
+                    "In 1940, the name Saint Luis Rey was registered by two English tobacco importers, Nathan Silverstone and Michael De Keyser.",
+                    "The Saint Luis Rey factory and its assets were nationalized by the Cuban government on September 15, 1960. From 1960 until 1992, the brand was marketed exclusively on the UK market by NR Silverstone Cigar Ltd. In 1993, Habanos S.A. began exporting this brand worldwide."
+                  ],
+        "date": "1940, Cuba"
       },
       {
-        "id": 15,
+        "brand_id": 15,
         "img_logo": "https://cdn.discordapp.com/attachments/1052846184135401512/1052853125951795210/vista-sancho.jpg",
         "name": "Sancho Panza",
-        "description": "lorem ipsum",
-        "status": "",
-        "date": ""
+        "description": ["Sancho Panza was established in 1848 by Don Emilio Ohmstedt, who also created El Rey del Mundo.",
+                        "It is named for a central character in the novel Don Quixote. The brand was not especially large or popular, and by 1898 had been discontinued."
+                      ],
+        "history": ["Named for the squire to Don Quixote in Miguel de Cervantes 1605 novel of the same name,",
+                    "the name 'Sancho Panza' was first used for a Havana cigar in 1848, when the marca of 'Sancho Panza' was registered by Don Emilio Ohmsted.",
+                    "The original factory was located at 48 Angeles St. in Havana. Sometime during the 1880s, the brand was acquired by Ramon Allones and in 1940 was purchased by the Rey Del Mundo Cigar Co.",
+                    "The Sancho Panza factory and its assets were nationalized by the Cuban government on September 15, 1960"
+                  ],
+        "date": "1848, Cuba"
       },
       {
-        "id": 16,
+        "brand_id": 16,
         "img_logo": "https://cdn.discordapp.com/attachments/1052846184135401512/1052852802839388160/troya-.jpg",
         "name": "Troya",
-        "description": "lorem ipsum",
-        "status": "",
-        "date": ""
+        "description": ["Troya is a current ICT machine-made brand.",
+                        "It was a pre-revolution Habanos SA brand established in 1932, and was deleted from Habanos portfolio circa 2005."
+                      ],
+        "history": ["Martínez & Co., located at 2000 Real Street, in Marianao, Havana, registered the brand in 1932.",
+                    "Its brand image stands out as one of the gems of Cuban lithography. It could be said that Homer immortalized Troy (“Troya” in Spanish)",
+                    ", but Martínez & Co. put the name of the city conquered by the Greeks, in the mouth of smokers."
+                  ],
+        "date": "1932, Cuba"
       },
       {
-        "id": 17,
+        "brand_id": 17,
         "img_logo": "https://cdn.discordapp.com/attachments/1052846184135401512/1052846368781238272/davidoff.jpg",
         "name": "Davidoff",
-        "description": "lorem ipsum",
-        "status": "",
-        "date": ""
+        "description": ["Davidoff is a Discontinued brand."],
+        "history": ["After the Second World War, Zino Davidoff decided to acquire a license to produce his own series of cigars.",
+                    "As he had discerning international customers, he named the various formats of this 'Château' cigar series after famous Bordeaux vineyard estates.",
+                    "The first in the series was the 'Château Latour' in 1946."
+                  ],
+        "date": "1930, Ginevra"
       }
     ],
 
     "cigars": [
       {
-        "id": 1,
-        "img_url": "https://media.discordapp.net/attachments/1052522736146194442/1052526620465967145/cohiba-black_1.png",
+        "cigar_id": 1,
+        "img_url": "link",
         "name": "Black",
         "brand": "Cohiba",
         "country": "Dominican Republic",
@@ -153,7 +230,7 @@
         "shapes": ["Churchill", "Cigarillo", "Robusto"]
       },
       {
-        "id": 2,
+        "cigar_id": 2,
         "img_url": "link",
         "name": "American Classic",
         "brand": "Cohiba",
@@ -165,7 +242,7 @@
         "shapes": ["Gordo", "Robusto", "Toro"]
       },
       {
-        "id": 3,
+        "cigar_id": 3,
         "img_url": "link",
         "name": "Black",
         "brand": "Cohiba",
@@ -177,7 +254,7 @@
         "shapes": ["Churchill", "Cigarillo", "Robusto"]
       },
       {
-        "id": 4,
+        "cigar_id": 4,
         "img_url": "link",
         "name": "Black",
         "brand": "Hoyo de Monterrey",
@@ -189,7 +266,7 @@
         "shapes": ["Churchill", "Cigarillo", "Robusto"]
       },
       {
-        "id": 5,
+        "cigar_id": 5,
         "img_url": "link",
         "name": "Black",
         "brand": "Hoyo de Monterrey",
@@ -201,7 +278,7 @@
         "shapes": ["Churchill", "Cigarillo", "Robusto"]
       },
       {
-        "id": 6,
+        "cigar_id": 6,
         "img_url": "link",
         "name": "Black",
         "brand": "Hoyo de Monterrey",
@@ -213,7 +290,7 @@
         "shapes": ["Churchill", "Cigarillo", "Robusto"]
       },
       {
-        "id": 7,
+        "cigar_id": 7,
         "img_url": "link",
         "name": "Black",
         "brand": "Partagás",
@@ -225,7 +302,7 @@
         "shapes": ["Churchill", "Cigarillo", "Robusto"]
       },
       {
-        "id": 8,
+        "cigar_id": 8,
         "img_url": "link",
         "name": "Black",
         "brand": "Partagás",
@@ -237,7 +314,7 @@
         "shapes": ["Churchill", "Cigarillo", "Robusto"]
       },
       {
-        "id": 9,
+        "cigar_id": 9,
         "img_url": "link",
         "name": "Black",
         "brand": "Romeo y Julieta",
@@ -249,7 +326,7 @@
         "shapes": ["Churchill", "Cigarillo", "Robusto"]
       },
       {
-        "id": 10,
+        "cigar_id": 10,
         "img_url": "link",
         "name": "Black",
         "brand": "Romeo y Julieta",
@@ -261,7 +338,7 @@
         "shapes": ["Churchill", "Cigarillo", "Robusto"]
       },
       {
-        "id": 11,
+        "cigar_id": 11,
         "img_url": "",
         "name": "",
         "brand": "Bolívar",
@@ -273,7 +350,7 @@
         "shapes": ["Churchill", "Cigarillo", "Robusto"]
       },
       {
-        "id": 12,
+        "cigar_id": 12,
         "img_url": "",
         "name": "",
         "brand": "Bolívar",
@@ -285,7 +362,7 @@
         "shapes": ["Churchill", "Cigarillo", "Robusto"]
       },
       {
-        "id": 13,
+        "cigar_id": 13,
         "img_url": "link",
         "name": "Black",
         "brand": "Trinidad",
@@ -297,7 +374,7 @@
         "shapes": ["Churchill", "Cigarillo", "Robusto"]
       },
       {
-        "id": 14,
+        "cigar_id": 14,
         "img_url": "link",
         "name": "Black",
         "brand": "Trinidad",
@@ -309,7 +386,7 @@
         "shapes": ["Churchill", "Cigarillo", "Robusto"]
       },
       {
-        "id": 15,
+        "cigar_id": 15,
         "img_url": "link",
         "name": "Black",
         "brand": "Vegueros",
@@ -321,7 +398,7 @@
         "shapes": ["Churchill", "Cigarillo", "Robusto"]
       },
       {
-        "id": 16,
+        "cigar_id": 16,
         "img_url": "link",
         "name": "Black",
         "brand": "Vegueros",
@@ -333,7 +410,7 @@
         "shapes": ["Churchill", "Cigarillo", "Robusto"]
       },
       {
-        "id": 17,
+        "cigar_id": 17,
         "img_url": "link",
         "name": "Black",
         "brand": "El Rey Del Mundo",
@@ -345,7 +422,7 @@
         "shapes": ["Churchill", "Cigarillo", "Robusto"]
       },
       {
-        "id": 18,
+        "cigar_id": 18,
         "img_url": "link",
         "name": "Black",
         "brand": "Rafael González",
@@ -357,7 +434,7 @@
         "shapes": ["Churchill", "Cigarillo", "Robusto"]
       },
       {
-        "id": 19,
+        "cigar_id": 19,
         "img_url": "link",
         "name": "Black",
         "brand": "Sancho Panza",
@@ -369,7 +446,7 @@
         "shapes": ["Churchill", "Cigarillo", "Robusto"]
       },
       {
-        "id": 20,
+        "cigar_id": 20,
         "img_url": "link",
         "name": "Black",
         "brand": "La Gloria Cubana",
@@ -381,7 +458,7 @@
         "shapes": ["Churchill", "Cigarillo", "Robusto"]
       },
       {
-        "id": 21,
+        "cigar_id": 21,
         "img_url": "link",
         "name": "Black",
         "brand": "Juan López",
@@ -393,7 +470,7 @@
         "shapes": ["Churchill", "Cigarillo", "Robusto"]
       },
       {
-        "id": 22,
+        "cigar_id": 22,
         "img_url": "link",
         "name": "Black",
         "brand": "Troya",
@@ -405,7 +482,7 @@
         "shapes": ["Churchill", "Cigarillo", "Robusto"]
       },
       {
-        "id": 23,
+        "cigar_id": 23,
         "img_url": "link",
         "name": "Black",
         "brand": "Davidoff",
@@ -417,7 +494,7 @@
         "shapes": ["Churchill", "Cigarillo", "Robusto"]
       },
       {
-        "id": 24,
+        "cigar_id": 24,
         "img_url": "link",
         "name": "Black",
         "brand": "Davidoff",
@@ -429,7 +506,7 @@
         "shapes": ["Churchill", "Cigarillo", "Robusto"]
       },
       {
-        "id": 25,
+        "cigar_id": 25,
         "img_url": "link",
         "name": "Black",
         "brand": "H. Upmann",
@@ -441,7 +518,7 @@
         "shapes": ["Churchill", "Cigarillo", "Robusto"]
       },
       {
-        "id": 26,
+        "cigar_id": 26,
         "img_url": "link",
         "name": "Black",
         "brand": "H. Upmann",
@@ -453,7 +530,7 @@
         "shapes": ["Churchill", "Cigarillo", "Robusto"]
       },
       {
-        "id": 27,
+        "cigar_id": 27,
         "img_url": "link",
         "name": "Black",
         "brand": "Montecristo",
@@ -465,7 +542,7 @@
         "shapes": ["Churchill", "Cigarillo", "Robusto"]
       },
       {
-        "id": 28,
+        "cigar_id": 28,
         "img_url": "link",
         "name": "Black",
         "brand": "Montecristo",
@@ -477,7 +554,7 @@
         "shapes": ["Churchill", "Cigarillo", "Robusto"]
       },
       {
-        "id": 29,
+        "cigar_id": 29,
         "img_url": "link",
         "name": "Black",
         "brand": "Montecristo",
@@ -489,7 +566,7 @@
         "shapes": ["Churchill", "Cigarillo", "Robusto"]
       },
       {
-        "id": 30,
+        "cigar_id": 30,
         "img_url": "link",
         "name": "Black",
         "brand": "Ramón Allones",
@@ -501,7 +578,7 @@
         "shapes": ["Churchill", "Cigarillo", "Robusto"]
       },
       {
-        "id": 31,
+        "cigar_id": 31,
         "img_url": "link",
         "name": "Black",
         "brand": "Ramón Allones",
