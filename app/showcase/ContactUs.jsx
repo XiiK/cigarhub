@@ -1,25 +1,27 @@
 'use client'
-import React from 'react'
+import React, { useState } from 'react'
 import emailjs from '@emailjs/browser'
 
 const form = React.createRef()
-
-const sendEmail = (e) => {
-  e.preventDefault()
-
-  const serviceID = 'service_vo081hw'
-  const templateID = 'template_21yymmn'
-  const userID = 'dcbH7KJnpitZZheXA'
-
-  emailjs.sendForm(serviceID, templateID, e.target, userID)
-    .then((result) => {
-      console.log(result.text)
-    }, (error) => {
-      console.log(error.text)
-    })
-}
-
+// fare controllo sui campi ASSOLUTAMENTE
 const ContactUs = () => {
+  const [popUp, setPopUp] = useState(false)
+
+  const sendEmail = (e) => {
+    e.preventDefault()
+
+    const serviceID = 'service_vo081hw'
+    const templateID = 'template_21yymmn'
+    const userID = 'dcbH7KJnpitZZheXA'
+
+    emailjs.sendForm(serviceID, templateID, e.target, userID)
+      .then((result) => {
+        console.log('mail status =>' + result.text)
+        setPopUp(true)
+      }, (error) => {
+        console.log('mail status' + error.text)
+      })
+  }
   return (
     <div className='' id='contactus'>
       <section className='text-gray-600 body-font relative'>
@@ -30,7 +32,10 @@ const ContactUs = () => {
           <div className='lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md'>
             <h2 className='text-gray-900 text-lg mb-1 font-medium title-font'>Feedback/Contact Us</h2>
             <p className='leading-relaxed mb-5 text-gray-600'>Dicci qualche consiglio per migliorare la nostra community, venite a trovarci a Parma per parlare delle nostre passioni, magari accompagnati anche da un piacevole cigaro in compagnia 😉</p>
-            <form ref={form} onSubmit={sendEmail}>
+            <form
+              ref={form}
+              onSubmit={sendEmail}
+            >
               <div className='relative mb-4'>
                 <div className='relative mb-4'>
                   <label htmlFor='name' className='leading-7 text-sm text-gray-600'>Nome</label>
@@ -51,6 +56,7 @@ const ContactUs = () => {
           </div>
         </div>
       </section>
+      {popUp && <div className='bg-green-600 text-center text-black'>Message!</div>}
     </div>
   )
 }

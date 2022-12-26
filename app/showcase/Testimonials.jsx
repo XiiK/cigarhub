@@ -5,7 +5,7 @@ import mioPadre from 'public/img/Sh/sh3.png'
 const Testimonials = () => {
   return (
     <div className='flex flex-row' id='testimonials'>
-      <Image className='rounded-full m-auto w-auto h-auto' src={mioPadre} alt='logo' />
+      <Image className='flex rounded-full m-auto w-auto h-auto' src={mioPadre} alt='logo' />
       <div className='m-auto max-w-sm rounded overflow-hidden shadow-lg'>
         <div className='px-6 py-4'>
           <div className='font-bold text-xl mb-2'>Aficionado: Physical_Usual581</div>
