@@ -1,3 +1,3 @@
 export default function Loading () {
-  return 'Loading...'
+  return <div id='lds-roller' className=''><div /><div /><div /><div /><div /><div /><div /><div /></div>
 }
