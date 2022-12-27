@@ -7,7 +7,12 @@ const form = React.createRef()
 const ContactUs = () => {
   const [popUp, setPopUp] = useState(false)
 
-  const delay = () => new Promise(resolve => setTimeout(resolve, 2000))
+  const delayPop = () => new Promise(resolve => setTimeout(resolve, 2000))
+
+  const removeBtn = () => {
+    const btn = document.getElementById('sendBtn')
+    btn.remove()
+  }
 
   const sendEmail = (e) => {
     e.preventDefault()
@@ -20,8 +25,9 @@ const ContactUs = () => {
       .then((result) => {
         console.log('mail status =>' + result.text)
         setPopUp(true)
-        delay().then(() => setPopUp(false))
         form.current.reset()
+        delayPop().then(() => setPopUp(false))
+        removeBtn()
       }, (error) => {
         console.log('mail status' + error.text)
       })
