@@ -9,6 +9,12 @@
     height: 100vh;
     width: 100%;
 }
+#hero-img-mobile{
+    display: none;
+    height: 100vh;
+    object-fit: cover;
+}
+
 #btn-header{
     transition: transform .2s; 
     width: 100px;
@@ -47,7 +53,6 @@
 
 #btn-hlog{
     transition: transform .2s;  
-    /* border: 2px solid black;  */
 }
 
 #btn-hlog:hover{
@@ -60,7 +65,9 @@
 /* Testimonials section */
 #testimonials{
     height: 100vh;
+     
 }
+
 /* ContactUs section  */
 #contactus{
     height: 100vh;
@@ -68,38 +75,49 @@
 
 #footer-copyright{
     background-color: rgb(243, 244, 246);
+
+}
+
+footer{
+    display: block;
 }
 
 /* Parte responsive per vari dispositivi */
 
+/* Smartphones (portrait and landscape) ----------- */
 
-@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
-    *{
-        color: white;
-    }
-}
-@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
-    *{
-        color: black;
+@media (max-width: 1020px) { 
+    #logo-header{
+        display: none;
     }
  }
-@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
-    *{
-        color: yellow;
+
+@media (max-width: 900px) { 
+   
+    #about{
+        display: none;
     }
-}
-@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
-    *{
-        color: blue;
+    #testimonials{
+        display: none;
     }
-}
-@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
-   *{
-        color: red;
-    } 
+    #footer{
+        display: none;
+    }
  }
-@media (min-width:1281px) { /* hi-res laptops and desktops */ 
-    *{
-        color: green;
+
+
+ @media (max-width: 600px) { 
+    #hero-img{
+        display: none;
     }
-}
+    #hero-img-mobile{
+        display: block;
+    }
+    #navbar-hero{
+        display: none;
+    }
+    #logo-header{
+        margin-top: 10px;
+        display: flex;
+    }
+ }

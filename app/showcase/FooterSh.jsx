@@ -10,7 +10,7 @@ const FooterSh = () => {
   }
   return (
     <>
-      <section className='text-gray-600 body-font'>
+      <section id='footerEnd' className='text-gray-600 body-font mt-5'>
         <div className='container px-5 py-24 mx-auto'>
           <div className='text-center mb-20'>
             <h1 className='sm:text-3xl text-3xl font-medium text-center title-font text-gray-900 mb-4'>The specifications CigarHub offers:</h1>
