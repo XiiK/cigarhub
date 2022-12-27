@@ -8,7 +8,7 @@ import about3 from 'public/img/About/about3.png'
 
 const About = () => {
   return (
-    <div className='' id='about'>
+    <div className='flex flex-col' id='about'>
       <section className='text-gray-600 body-font'>
         <div className='container px-5 py-10 mx-auto'>
           <div className='flex flex-wrap -m-4'>

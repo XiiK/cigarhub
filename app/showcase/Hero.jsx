@@ -5,6 +5,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import logoHero from 'public/img/logo.png'
 import heroBg from 'public/img/heros.png'
+import heroBgMobile from 'public/img/cigarBgMobile.png'
 
 const Hero = () => {
   function ClickHome (e) {
@@ -33,6 +34,14 @@ const Hero = () => {
         alt='heroBg'
         placeholder='blur'
       />
+      <Image
+        id='hero-img-mobile'
+        className='w-full h-full'
+        src={heroBgMobile}
+        priority
+        alt='MobileBg'
+        placeholder='blur'
+      />
       <div className='' id='hero'>
         {/* Header fiero */}
         <header className='text-gray-600 body-font bg-red-500/25'>
@@ -46,7 +55,7 @@ const Hero = () => {
                 width={100} height={100}
               />
             </a>
-            <nav className='md:m-auto flex flex-wrap items-center justify-center'>
+            <nav id='navbar-hero' className='md:m-auto flex flex-wrap items-center justify-center'>
               <button id='btn-header' className='mr-5' onClick={ClickHome}>Home</button>
               <button id='btn-header' className='mr-5' onClick={ClickAbout}>About</button>
               <button id='btn-header' className='mr-5' onClick={ClickTestimonials}>Other</button>
