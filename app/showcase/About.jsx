@@ -1,8 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 
-// import logoHero from 'public/img/logo.png'
-
 import about2 from 'public/img/About/about2.png'
 import about3 from 'public/img/About/about3.png'
 

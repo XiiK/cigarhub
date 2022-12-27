@@ -7,6 +7,13 @@ const form = React.createRef()
 const ContactUs = () => {
   const [popUp, setPopUp] = useState(false)
 
+  const delayPop = () => new Promise(resolve => setTimeout(resolve, 2000))
+
+  const removeBtn = () => {
+    const btn = document.getElementById('sendBtn')
+    btn.remove()
+  }
+
   const sendEmail = (e) => {
     e.preventDefault()
 
@@ -18,10 +25,14 @@ const ContactUs = () => {
       .then((result) => {
         console.log('mail status =>' + result.text)
         setPopUp(true)
+        form.current.reset()
+        delayPop().then(() => setPopUp(false))
+        removeBtn()
       }, (error) => {
         console.log('mail status' + error.text)
       })
   }
+
   return (
     <div className='' id='contactus'>
       <section className='text-gray-600 body-font relative'>
@@ -51,12 +62,13 @@ const ContactUs = () => {
                 </div>
                 <input id='sendBtn' type='submit' value='Send' className='cursor-pointer text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg' />
               </div>
+              {popUp && <div className='bg-green-500 text-center text-white rounded-lg'>Message sent!</div>}
             </form>
             <p className='text-xs text-gray-500 mt-3'>Per organizzare un'incontro si consgilia di contattare il team di CigarHub fornendo un numero di telefono!</p>
           </div>
         </div>
       </section>
-      {popUp && <div className='bg-green-600 text-center text-black'>Message!</div>}
+
     </div>
   )
 }
