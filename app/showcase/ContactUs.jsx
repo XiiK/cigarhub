@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import emailjs from '@emailjs/browser'
 
 const form = React.createRef()
-// fare controllo sui campi ASSOLUTAMENTE
+// implementare il recaptcha se si ha tempo
 const ContactUs = () => {
   const [popUp, setPopUp] = useState(false)
 

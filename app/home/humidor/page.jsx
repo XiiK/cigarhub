@@ -12,7 +12,7 @@ const PageHumidor = async () => {
   console.log('process.env.NEXT_PUBLIC_SITE_URL', process.env.NEXT_PUBLIC_SITE_URL)
   return (
     <>
-      <div className='grid grid-cols-4 gap-10'>
+      <div id='humidor-page' className='grid grid-cols-4 gap-10'>
         {cigars.brands.map((brand) => (
           <div className='post' key={brand?.brand_id}>
             <h1>{brand?.name}</h1>

@@ -1,9 +1,21 @@
+#page-home{
+  display: flex;
+  flex-direction: row;
+}
+/* sezione humidor, friends, profile */
+#friends-page, #humidor-page, #profile-page{
+  margin-top: 20px;
+}
 #navbar {
   background-color: whitesmoke;
   width: 350px;
   height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+#mobile-navbar{
+  display: none;
 }
 
 #navbar-top {
@@ -106,10 +118,11 @@
 /* Loader css */
 
 #lds-roller {
-  display: inline-block;
-  position: relative;
-  width: 80px;
-  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  position: relative; 
 }
 #lds-roller div {
   animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
@@ -122,7 +135,7 @@
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: rgb(223, 79, 79);
+  background: rgb(228, 46, 46);
   margin: -4px 0 0 -4px;
 }
 #lds-roller div:nth-child(1) {
@@ -188,4 +201,151 @@
   100% {
     transform: rotate(360deg);
   }
+}
+
+/* Responsive Navbar with hamburger menu */
+:root {
+  --mobile-nav-bg: whitesmoke;
+  --main-clr: rgb(187, 40, 40);
+  --mobile-nav-shadow: 0px 3px var(--main-clr);
+}
+
+#mobile-navbar {
+  display: none;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+  background: var(--mobile-nav-bg);
+  box-shadow: var(--mobile-nav-shadow);
+}
+#mobile-navbar #logo{
+  color: #fff;
+  text-decoration-color: var(--main-clr);
+  font-size: 1.375rem;
+  font-weight: 100;
+}
+#mobile-navbar ul {
+  --padding: 1.25rem;
+  --font-size: 1.25rem;
+
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font-size: var(--font-size);
+  overflow-y: hidden;
+  transition: 1s cubic-bezier(0.68, -0.55, 0.265, 10.55);
+  box-shadow: var(--mobile-nav-shadow);
+}
+#mobile-navbar ul li {
+  padding: var(--padding);
+}
+#mobile-navbar ul li a {
+  color: black;
+  text-decoration: none;
+  position: relative;
+}
+#mobile-navbar ul li a::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  border-radius: 99px;
+  background: var(--main-clr);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s ease;
+}
+#mobile-navbar ul li a:hover::after {
+  width: 100%;
+}
+#mobile-navbar .menu {
+  width: 1.375rem;
+  height: 1rem;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  margin: 1.25rem;
+}
+#mobile-navbar .menu span {
+  width: 100%;
+  height: 2px;
+  border-radius: 99px;
+  background: black;
+  transition: 0.3s ease;
+  transform-origin: left;
+}
+
+#mobile-navbar .menu.active span {
+  background: var(--main-clr);
+}
+#mobile-navbar .menu.active span:nth-child(1) {
+  transform: rotate(40deg);
+}
+#mobile-navbar .menu span:nth-child(3){
+  transform-origin: left;
+}
+#mobile-navbar .menu.active span:nth-child(3) {
+  transform: rotate(-40deg);
+}
+#mobile-navbar .menu.active span:nth-child(2) {
+  scale: 0;
+} 
+/* Dimensione: 850px */
+
+@media (max-width: 850px){
+  #navbar{
+    display: none;
+  }
+  #page-home{
+    flex-direction: column;
+  }
+  #friends-page, #humidor-page, #profile-page{
+    margin-top: 100px;
+  }
+  #lds-roller {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Sezione responsive navbar */
+  #mobile-navbar{
+    display: flex;
+  }
+  #mobile-navbar .menu{
+    display: flex;
+  }
+  #mobile-navbar ul{
+    --height: 0px;
+
+    flex-direction: column;
+    background: var(--mobile-nav-bg);
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 3.5rem;
+    height: var(--height);
+    transition: 1s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  }
+  #mobile-navbar ul.active{
+    --height: calc(
+      (((var(--padding) * 2) + (var(--font-size) * 1.5))) * 4
+    );
+    transition: 1s ease;
+  }
+  #mobile-navbar ul li{
+    width: 100%;
+    text-align: center;
+  }
+  #mobile-navbar ul li a{
+    width: 100%;
+    text-transform: capitalize;
+  }
+
+
 }
