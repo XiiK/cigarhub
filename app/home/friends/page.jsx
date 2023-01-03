@@ -21,13 +21,15 @@ const PageFriends = () => {
 
   return (
     <>
-      <div>PageFriends</div>
-      {friendList.map((friend) => (
-        <div key={friend.id}>
-          <div>{friend.name}</div>
-          <div>{friend.age}</div>
-        </div>
-      ))}
+      <div id='friends-page'>
+        {friendList.map((friend) => (
+          <div key={friend.id}>
+            <div>{friend.name}</div>
+            <div>{friend.age}</div>
+          </div>
+        ))}
+      </div>
+
     </>
   )
 }
