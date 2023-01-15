@@ -3,12 +3,13 @@
   flex-direction: row;
 }
 /* sezione humidor, friends, profile */
+
 #friends-page, #humidor-page, #profile-page{
   margin-top: 20px;
 }
 #navbar {
   background-color: whitesmoke;
-  width: 350px;
+  max-width: 300px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,7 +24,7 @@
   margin-left: 1rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 #logo {
@@ -33,7 +34,6 @@
 #navbar-top a {
   display: flex;
   align-items: center;
-  margin-right: 2rem;
 
 }
 
@@ -90,6 +90,7 @@
 
 
 #profile-wrapper {
+  /* background-color: lightblue; */
   width: 220px;
   display: flex;
   flex-direction: row;
@@ -297,6 +298,10 @@
 /* Dimensione: 850px */
 
 @media (max-width: 850px){
+  #create-post {
+    margin-top: 4rem;
+  }
+  
   #navbar{
     display: none;
   }
