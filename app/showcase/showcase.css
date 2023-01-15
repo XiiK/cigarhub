@@ -123,4 +123,10 @@ footer{
     #spec-hub{
         margin-top: 11px;
     }
+    #header-mobile-rs{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
  }

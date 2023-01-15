@@ -4,9 +4,11 @@
 }
 /* sezione humidor, friends, profile */
 
-#friends-page, #humidor-page, #profile-page{
+#friends-page, #profile-page{
   margin-top: 20px;
 }
+
+
 #navbar {
   background-color: whitesmoke;
   max-width: 300px;
@@ -308,8 +310,11 @@
   #page-home{
     flex-direction: column;
   }
-  #friends-page, #humidor-page, #profile-page{
+  #friends-page, #profile-page{
     margin-top: 100px;
+  }
+  #humidor-page{
+    margin-top: 60px;
   }
   #lds-roller {
     display: flex;

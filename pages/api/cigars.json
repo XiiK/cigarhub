@@ -3,7 +3,7 @@
     "brands": [
       {
         "brand_id": 1,
-        "img_logo": "https://media.discordapp.net/attachments/1052846184135401512/1052846368382791680/cohiba.jpg",
+        "img_logo": "https://cdn.discordapp.com/attachments/1052846184135401512/1064217020079554642/cohiba.jpg",
         "name": "Cohiba",
         "description": ["Cohiba is a current post-Revolution brand, established in 1966.", "It is classified by Habanos SA as their Global flagship brand, and has a major market share and is sold at a premium price."],
         "history": ["In 1963 Cohiba started out as a Fuma (a cigar rolled by a torcedor for his own use) that was offered to Fidel Castro.",
@@ -50,7 +50,7 @@
       },
       {
         "brand_id": 5,
-        "img_logo": "https://cdn.discordapp.com/attachments/1052846184135401512/1052849914381611108/partagas.png",
+        "img_logo": "https://media.discordapp.net/attachments/1052846184135401512/1064231917819547658/partagas.jpg",
         "name": "Partagas",
         "description": ["Partagás is classified by Habanos s.a. as a Global brand, and has a major market share. The brand was established in 1827.", "The current Partagás factory was constructed in 1845, and this is the year that is used for calculating major anniversaries for the brand."],
         "history": ["Partagás is one of the oldest cigar brands, having been established in 1845 in Havana, the cigar capital of the world.",
@@ -85,7 +85,7 @@
       },
       {
         "brand_id": 8,
-        "img_logo": "https://cdn.discordapp.com/attachments/1052846184135401512/1052851826069884938/RamonAllonespng.png",
+        "img_logo": "https://media.discordapp.net/attachments/1052846184135401512/1064231917819547658/partagas.jpg",
         "name": "Ramon Allones",
         "description": ["Ramón Allones is a current pre-revolution brand, established between 1837 and 1845.",
                         "The brand changed hands several times, including a spell owned by UK importer Hunters between 1911 and 1927, after which it was bought by Partagás."
