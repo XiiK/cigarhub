@@ -12,8 +12,8 @@ const FooterSh = () => {
     <>
       <section id='footerEnd' className='text-gray-600 body-font mt-5'>
         <div className='container px-5 py-24 mx-auto'>
-          <div className='text-center mb-20'>
-            <h1 id='spec-hub' className='sm:text-3xl text-3xl font-medium text-center title-font text-gray-900 mb-4'>The specifications CigarHub offers:</h1>
+          <div id='footerText-rs' className='text-center my-20'>
+            <h1 id='spec-hub' className='sm:text-3xl text-3xl font-medium text-center title-font text-gray-900'>The specifications CigarHub offers:</h1>
           </div>
           <div className='flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2'>
             <div className='p-2 sm:w-1/2 w-full'>

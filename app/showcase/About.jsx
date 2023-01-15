@@ -84,14 +84,7 @@ const About = () => {
           <h2 className='sm:text-3xl text-2xl text-gray-900 font-medium title-font mb-2 md:w-2/5'>CigarHub for every type of Aficionado </h2>
           <div className='md:w-3/5 md:pl-6'>
             <p className='leading-relaxed text-base'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque mollitia dolore soluta, nihil molestiae architecto! Quasi ratione officia corrupti voluptatem ipsa, eos ipsum corporis, autem, fugiat aliquam tenetur. Porro, eius.</p>
-            <div className='flex md:mt-4 mt-6'>
-              <button className='inline-flex text-white bg-red-500 border-0 py-1 px-4 focus:outline-none hover:bg-red-600 rounded'>Explore</button>
-              <a className='text-red-500 inline-flex items-center ml-4'>Learn More
-                <svg fill='none' stroke='currentColor' strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' className='w-4 h-4 ml-2' viewBox='0 0 24 24'>
-                  <path d='M5 12h14M12 5l7 7-7 7' />
-                </svg>
-              </a>
-            </div>
+
           </div>
         </div>
       </section>
