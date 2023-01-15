@@ -49,17 +49,17 @@ const CreatePost = () => {
     })
   }
   return (
-    <form onSubmit={addPost} className='flex space-x-2'>
+    <form onSubmit={addPost} className='flex space-x-2 ml-2 mt-4 mr-2' id='create-post'>
       <input
         type='text'
         placeholder='Write your message...'
-        className='flex-1 px-5 py-3 border'
+        className='flex-1 px-5 py-3 border rounded'
         value={input}
         onChange={(e) => setInput(e.target.value)}
       />
       <button
         type='submit'
-        className='bg-blue-200 rounded px-5 py-3 disabled:opacity-50 disabled:cursor-not-allowed'
+        className='bg-red-200 rounded px-5 py-3 disabled:opacity-50 disabled:cursor-not-allowed'
         disabled={!input || !session}
       >Post
       </button>
