@@ -12,7 +12,7 @@ const PageHumidor = async () => {
   console.log('process.env.NEXT_PUBLIC_SITE_URL', process.env.NEXT_PUBLIC_SITE_URL)
   return (
     <>
-      <div id='humidor-page' className='grid grid-row-4 gap-10'>
+      <div id='humidor-page' className='max-h-screen overflow-y-auto w-full grid grid-row-4 gap-10'>
         {cigars.brands.map((brand) => (
           <div className='bg-white rounded-lg shadow-2xl md:flex' id='card' key={brand?.brand_id}>
             <img className='rounded-t-lg md:w-1/3 md:rounded-l-lg md:rounded-t-none' src={brand?.img_logo} alt={brand?.brand_id} width={100} height={200} />

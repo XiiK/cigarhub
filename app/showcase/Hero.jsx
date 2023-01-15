@@ -45,7 +45,7 @@ const Hero = () => {
       <div className='' id='hero'>
         {/* Header fiero */}
         <header className='text-gray-600 body-font bg-red-500/25'>
-          <div className='container mx-auto px-10 flex flex-wrap flex-col md:flex-row items-center'>
+          <div id='header-mobile-rs' className='container mx-auto px-10 flex flex-wrap flex-col md:flex-row items-center'>
             <a className='flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0'>
               <Image
                 id='logo-header'
@@ -59,7 +59,7 @@ const Hero = () => {
               <button id='btn-header' className='mr-5' onClick={ClickHome}>Home</button>
               <button id='btn-header' className='mr-5' onClick={ClickAbout}>About</button>
               <button id='btn-header' className='mr-5' onClick={ClickTestimonials}>Other</button>
-              <button id='btn-header' className='mr-5' onClick={ClickToContact}>Contact Us</button>
+              <button id='btn-header' className='mr-5' onClick={ClickToContact}><p className='inline-block'>Contact Us</p></button>
             </nav>
             <Link href='../auth/signin' id='btn-hlog' className='mx-2 my-2 transistion bg-gray-100 transition focus:outline-none text-black hover:text-gray-500 rounded-lg px-8 py-3 text-medim'>LOG IN →</Link>
           </div>
