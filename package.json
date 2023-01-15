@@ -9,13 +9,16 @@
     "@emailjs/browser": "^3.10.0",
     "@react-three/drei": "^9.46.0",
     "@react-three/fiber": "^8.9.1",
+    "ioredis": "^5.2.5",
     "mongodb": "^4.12.1",
     "nanoid": "^4.0.0",
     "next": "latest",
     "next-auth": "^4.17.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "three": "^0.147.0"
+    "swr": "^2.0.0",
+    "three": "^0.147.0",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "@types/node": "18.11.3",

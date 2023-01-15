@@ -1,19 +1,27 @@
+'use client'
 import React from 'react'
+import useSWR from 'swr'
+import fetcher from '../../lib/fetchPosts'
+import Image from 'next/image'
 
-const getPosts = async () => {
-  const res = await fetch(process.env.NEXT_PUBLIC_SITE_URL + '/api/getPosts')
-  return res.json()
-}
-
-const PostsList = async () => {
-  const posts = await getPosts()
-  console.log('process.env.NEXT_PUBLIC_SITE_URL', process.env.NEXT_PUBLIC_SITE_URL)
+const PostsList = () => {
+  const { data: posts, error, mutate } = useSWR('/api/getPosts', fetcher)
   return (
-    <div className='post-wrapper'>
-      {posts.map((post) => (
-        <div className='post' key={post?.post_id}>
-          <h1>{post?.text}</h1>
-          <img src={post?.image} alt={post?.post_id} width={500} height={200} />
+    <div className='px-2 mb-10'>
+      {posts?.map((post) => (
+        <div className='flex px-4 py-3 mt-3 bg-blue-300 rounded' key={post.id}>
+          <div className='basis-1/8'>
+            <Image
+              src={post.profilePic}
+              alt='propic'
+              height={30}
+              width={30}
+              className='rounded-full'
+            />
+            <p>{post.username}</p>
+            <p className='text-xs'>{new Date(post.createdAt).toLocaleString()}</p>
+          </div>
+          <p className='text-xl ml-10'>{post.post}</p>
         </div>
       ))}
     </div>
